@@ -25,6 +25,7 @@ const Octave = props => {
                     <WhiteKey 
                         key={index + "whiteKey"}
                         whiteKey_X_Position={`${whiteKey_X_Position} 0.5 -3`}
+                        note={note}
                         {...props}
                     />
                 </>
