@@ -4,9 +4,9 @@ import Octave from './Octave';
 
 const App = () => {
   const notes = ["C", "D", "E", "F", "G", "A", "B"];
-  const octaves = ["1", "2", "3"]
+  const octaves = ["1", "2", "3", "4", "5", "6", "7", "8"]
 
-  let startingPosition = 1.0;
+  let startingPosition = -20;
 
   return (
     <div className="App">
