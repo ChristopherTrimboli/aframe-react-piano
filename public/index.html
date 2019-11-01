@@ -2,18 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="A-frame Piano"
     />
-    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="apple-touch-icon" href="logo.png" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <title>React App</title>
+    <title>A-frame Piano</title>
     <script> navigator.xr.requestDevice = () => Promise.resolve() </script>
     <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
@@ -28,6 +28,16 @@
 
         AFRAME.registerComponent('playnote', {
             init: function () {
+              var data = this.data;
+              var el = this.el;  // <a-box>    
+              el.addEventListener('mousedown', function () {
+                playNote(data)
+              });
+            }
+        });
+
+        AFRAME.registerComponent('x-button-listener', {
+          init: function () {
               var data = this.data;
               var el = this.el;  // <a-box>    
               el.addEventListener('mousedown', function () {

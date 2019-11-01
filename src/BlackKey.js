@@ -7,6 +7,8 @@ const BlackKey = props => {
                 event-set__enter="_event: mouseenter; color: #8FF7FF"
                 event-set__leave="_event: mouseleave; color: black"
                 playnote={props.note + props.octave}
+                oculus-touch-controls 
+                x-button-listener={props.note + props.octave}
             >
             </a-box>
         </>

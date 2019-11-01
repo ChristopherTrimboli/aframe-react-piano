@@ -7,6 +7,8 @@ const WhiteKey = props => {
             event-set__enter="_event: mouseenter; color: yellow"
             event-set__leave="_event: mouseleave; color: tomato"
             playnote={props.note + props.octave}
+            oculus-touch-controls 
+            x-button-listener={props.note + props.octave}
             >
             </a-box>
         </>
