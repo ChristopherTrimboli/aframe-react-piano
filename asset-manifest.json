@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/aframe-react-piano/static/css/main.b100e6da.chunk.css",
+    "main.js": "/aframe-react-piano/static/js/main.4521c567.chunk.js",
+    "main.js.map": "/aframe-react-piano/static/js/main.4521c567.chunk.js.map",
+    "runtime-main.js": "/aframe-react-piano/static/js/runtime-main.2c26558b.js",
+    "runtime-main.js.map": "/aframe-react-piano/static/js/runtime-main.2c26558b.js.map",
+    "static/js/2.7782938a.chunk.js": "/aframe-react-piano/static/js/2.7782938a.chunk.js",
+    "static/js/2.7782938a.chunk.js.map": "/aframe-react-piano/static/js/2.7782938a.chunk.js.map",
+    "index.html": "/aframe-react-piano/index.html",
+    "precache-manifest.72bdf048097a6f0769c96a1d037ec6dd.js": "/aframe-react-piano/precache-manifest.72bdf048097a6f0769c96a1d037ec6dd.js",
+    "service-worker.js": "/aframe-react-piano/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/aframe-react-piano/static/css/main.b100e6da.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c26558b.js",
+    "static/js/2.7782938a.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.4521c567.chunk.js"
+  ]
+}
