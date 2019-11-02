@@ -20,7 +20,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.4.9/Tone.js"></script>
 
     <script>
-        const synth = new Tone.Synth().toMaster();
+        const synth = new Tone.Synth().toDestination();
 
         const playNote = (note) => {
           synth.triggerAttackRelease(note, "8n");

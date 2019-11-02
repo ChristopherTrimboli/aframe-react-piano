@@ -10,7 +10,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <a-scene>
+            <a id="enterVRButton" href="#">Enter VR</a>
+
+      <a-scene vr-mode-ui="enterVRButton: #enterVRButton" inspector="https://cdn.jsdelivr.net/gh/aframevr/aframe-inspector@master/dist/aframe-inspector.min.js">
+
         {
           octaves.map((octave, index) => {
             startingPosition = startingPosition + 4.2;
@@ -22,10 +25,14 @@ const App = () => {
                     />
           })
         }
+
+
         <a-camera>
           <a-cursor></a-cursor>
         </a-camera>
+
       </a-scene>
+
     </div>
   );
 }
